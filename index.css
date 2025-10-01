@@ -1,0 +1,100 @@
+a{
+    padding:  2rem;
+    margin: auto;
+    justify-content: center;
+}
+#phoneNumber{
+    text-align: right;
+    color: rgb(30, 30, 189);
+    font-size: x-large;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 255)), url('mercerfront.jpg');
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.bodyText{
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    font-weight: bold;
+    color:white;
+}
+.navBar{
+    width: 100%;
+    display: grid;
+}
+#fontSize{
+    font-size:x-large ;
+}
+li{
+    text-decoration: none;
+}
+.smallText{
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    margin-top: 5%;
+    font-weight: bold;
+    color:white;
+}
+.serviceButton{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.aboutUs{
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+    font-weight: bold;
+}
+.aboutUsLi{
+    color: white;
+    margin-top: 0.9rem;
+}
+#oldCarImage{
+    max-width: 75%;
+    grid-column: 1;
+    margin-top: 1rem;
+}
+.container{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#bosses{
+    margin-left: 7rem;
+    max-width: 75%;
+    max-height: 60%;
+}
+.aboutSections{
+    text-align: center;
+    color: white;
+    margin-top: -17rem;
+    max-width: 65%;
+    margin-left: 4rem;
+}
+.containerTechs{
+    margin-top: -5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10rem;
+}
+#techs{
+    max-width: 60%;
+    max-height: 80%;
+}
+#jim{
+    max-width: 50%;
+    min-height: 80%;
+}
+.containerTechsAbout{
+    margin-top: 15rem;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
+}
