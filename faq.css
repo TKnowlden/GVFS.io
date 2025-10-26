@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    padding:  2rem;
+    margin: auto;
+    justify-content: center;
+}
+#phoneNumber{
+    text-align: right;
+    color: aliceblue;
+    font-size: x-large;
+}
+#fontSize{
+    font-size:x-large ;
+}
+.questionHeader{
+    color: aliceblue;
+    margin-top: 2rem;
+}
+.faqLi{
+    color: aliceblue;
+    font-size: xx-large;
+}
+ul{
+    list-style-type: square;
+}
+.faqLiSibling{
+    color: aliceblue;
+    font-size: x-large;
+}
+.aboutIntro{
+    color: aliceblue;
+    list-style-type: none;
+    font-size: large;
+}

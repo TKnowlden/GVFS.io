@@ -1,0 +1,122 @@
+a{
+    padding:  2rem;
+    margin: auto;
+    justify-content: center;
+}
+#phoneNumber{
+    text-align: right;
+    color: rgb(30, 30, 189);
+    font-size: xx-large;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 255)), url('mercerfront.jpg');
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.bodyText{
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+    font-weight: bold;
+    color:white;
+}
+.navBar{
+    width: 100%;
+    display: grid;
+}
+#fontSize{
+    font-size:xx-large ;
+}
+li{
+    text-decoration: none;
+}
+.smallText{
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    margin-top: 5%;
+    font-weight: bold;
+    color:white;
+    margin-bottom: -2rem;
+}
+.serviceButton{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.aboutUs{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.aboutUsLi{
+    color: white;
+    font-size: large;
+
+}
+.aboutUsLiContainer{
+    color: white;
+    font-size: large;
+    
+}
+#oldCarImage{
+    max-width: 70%;
+    grid-column: 1;
+    margin-top: 1rem;
+}
+.container{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#bosses{
+    margin-left: 7rem;
+    max-width: 75%;
+    max-height: 60%;
+}
+.aboutSections{
+    text-align: center;
+    color: white;
+    margin-top: -17rem;
+    max-width: 65%;
+    margin-left: 4rem;
+}
+.containerTechs{
+    margin-top: -5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10rem;
+}
+#techs{
+    max-width: 60%;
+    max-height: 80%;
+}
+#jim{
+    max-width: 50%;
+    min-height: 80%;
+}
+.containerTechsAbout{
+    margin-top: 15rem;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr;
+}
+#vehicleSelection{
+    margin-top: 5rem;
+}
+.locateHours{
+    color:aliceblue;
+    margin-bottom: -3rem;
+}
+#hours{
+    color:aliceblue;
+    text-align: center;
+    font-size: x-large;
+
+}
+.ulHours{
+    list-style-type: none;
+}
