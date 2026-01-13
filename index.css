@@ -1,0 +1,134 @@
+a{
+    padding:  2rem;
+    margin: auto;
+    justify-content: center;
+}
+#phoneNumber{
+    text-align: right;
+    color: rgb(30, 30, 189);
+    font-size: xx-large;
+    list-style-type: none;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 255)), url('mercerfront.jpg');
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bodyText{
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+    font-weight: bold;
+    color:white;
+}
+.navBar{
+    width: 100%;
+    display: grid;
+}
+#fontSize{
+    font-size:xx-large ;
+}
+li{
+    text-decoration: none;
+}
+.smallText{
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    margin-top: 5%;
+    font-weight: bold;
+    color:white;
+    margin-bottom: -2rem;
+}
+.serviceButton{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.aboutUs{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.aboutUsLi{
+    color: white;
+    font-size: large;
+
+}
+.aboutUsLiContainer{
+    color: white;
+    font-size: large;
+    
+}
+#oldCarImage{
+    max-width: 70%;
+    grid-column: 1;
+    margin-top: 1rem;
+}
+.container{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: -5rem;
+}
+#cards{
+    margin-left: 9rem;
+    max-width: 65%;
+    max-height: 65%;
+}
+#Tyler{
+    max-width: 25%;
+    max-height: 5%;
+    margin-top: 5rem;
+    margin-bottom: -2rem;
+    
+}
+#aboutSections{
+    text-align: center;
+    color: white;
+    margin-top: -10rem;
+    max-width: 65%;
+    margin-left: 8.5rem;
+    margin-bottom: 5rem;
+}
+#aboutSectionsTyler{
+    color: white;
+    max-width: 30%;
+}
+
+#vehicleSelection{
+    margin-top: 5rem;
+}
+.locateHours{
+    color:aliceblue;
+    margin-bottom: -3rem;
+}
+#hours{
+    color:aliceblue;
+    text-align: center;
+    font-size: x-large;
+
+}
+.ulHours{
+    list-style-type: none;
+}
+#lobby{
+    margin-left: 9rem;
+    width: 70%;
+    height: 75%;
+}
+.containerLower{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5rem;
+}
+.containerTeam{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
