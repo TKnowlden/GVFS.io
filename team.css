@@ -1,0 +1,61 @@
+a{
+    padding:  2rem;
+    margin: auto;
+    justify-content: center;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 255)), url('fullLogo.jpg');
+    place-items: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+.navBar{
+    width: 100%;
+    display: grid;
+}
+#fontSize{
+    font-size:xx-large ;
+}
+#buttonToggler{
+    background-color: aliceblue;
+}
+@media (max-width: 1200px) {
+    #fontSize{font-size:x-large}
+    #phoneNumber{font-size:x-large}
+}
+@media (min-width: 1200px) {
+    #phoneNumber{
+    font-size: xx-large;
+}}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.containerTwo{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.teamIntro{
+    color:aliceblue;
+text-align: center;
+
+}
+.break{
+    height: 3px;
+    border: none;
+    background-color: #ffffff;
+}
+.timText{
+    color: #ffffff;
+    font-size: xx-large;
+    margin-top: 2.5rem;
+}
+.nickText{
+    color: #ffffff;
+    font-size: xx-large;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+
