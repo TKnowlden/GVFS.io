@@ -1,0 +1,137 @@
+a{
+    padding:  2rem;
+    margin: auto;
+    justify-content: center;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 255)), url('fullLogo.jpg');
+    display: grid;
+    place-items: center;
+    max-height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+.navBar{
+    width: 100%;
+    display: grid;
+}
+#fontSize{
+    font-size:xx-large ;
+}
+#buttonToggler{
+    background-color: aliceblue;
+}
+@media (max-width: 1200px) {
+    #fontSize{font-size:x-large}
+    #phoneNumber{font-size:x-large}
+}
+@media (min-width: 1200px) {
+    #phoneNumber{
+    font-size: xx-large;
+}}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-width: 90%;
+
+}
+.containerTwo{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    min-width: 90%;
+}
+#containerTwo{
+   margin-left: 3rem;
+}
+.teamIntro{
+    color:aliceblue;
+text-align: center;
+
+}
+.break{
+    height: 3px;
+    border: none;
+    background-color: #f1eeee;
+}
+.timText{
+    color: #ffffff;
+    font-size: xx-large;
+    margin-top: 2.5rem;
+}
+.nickText{
+    color: #ffffff;
+    font-size: xx-large;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+#teamPicOne{
+    column-gap: 10%;
+}
+.mobileviewTeam{
+    display: none;
+}
+@media (max-width: 1170px) {
+    .timText , .nickText{
+        font-size: x-large;
+    }
+}
+@media (max-width: 940px) {
+    .teamPic{
+        height: 80%;
+    }
+}
+@media (max-width: 900px) {
+    .teamPicTyler{
+       margin-right: 2rem;
+    }
+}
+@media (max-width: 770px) {
+    .timText , .nickText{
+        font-size: larger;
+    }
+}
+@media (max-width: 900px) {
+    .timText{
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 690px) {
+    .nickText{
+        margin-top: 0rem;
+    }
+    .timText{
+        margin-top: -0.3rem;
+    }
+}
+@media (max-width: 550px) {
+    .container, .containerTwo{
+        display: inline-block;
+    }
+    .containerTwo{
+        display: none;
+    }
+    .mobileviewTeam{
+        display: inline-block;
+    }
+    .timText,.nickText{
+        margin-left: 2rem;
+    }
+    .teamPic,.pictureContainers{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    #tyPic{
+        margin-right: 2.5rem;
+    }
+    #nickPic{
+        margin-right: 3rem;
+    }
+    .teamPicTyler{
+        margin-left: 1rem;
+    }
+}
+
+
