@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 255)), url('fullLogo.jpg');
+    background-color: black;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    padding:  2rem;
+    margin: auto;
+    justify-content: center;
+}
+#phoneNumber{
+    text-align: right;
+    color: aliceblue;
+    font-size: x-large;
+}
+#fontSize{
+    font-size:x-large ;
+}
+.questionHeader{
+    color: aliceblue;
+    margin-top: 2rem;
+}
+.faqLi{
+    color: aliceblue;
+    font-size: xx-large;
+}
+ul{
+    list-style-type: square;
+}
+.faqLiSibling{
+    color: aliceblue;
+    font-size: x-large;
+}
+.aboutIntro{
+    color: aliceblue;
+    list-style-type: none;
+    font-size: large;
+}
+.servicesIntro{
+    color: aliceblue;
+    list-style-type: none;
+    font-size: large;
+}
+.navbar-toggler{
+    background-color: aliceblue;
+}
+.introLi, .servicesLi{font-size: xx-large;
+ }
+@media (max-width: 1890px) {
+    .introLi, .servicesLi{font-size: x-large;
+    margin-right: 2rem;}
+}
+@media (max-width: 920px) {
+    #fontSize{font-size:larger}
+    #phoneNumber{font-size:larger}
+}
+@media (max-width: 1100px) {
+    .introLi, .servicesLi{font-size: large;
+ }
+}
+@media (max-width: 600px) {
+    #servicesOffered{
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 600px) {
+    .introLi, .servicesLi{font-size: 1rem;
+ }
+}
